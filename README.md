@@ -236,62 +236,7 @@ The exact implementation and demonstration procedure are documented in the READM
 
 ---
 
-## 8. Demonstration and Viva Preparation
 
-For **each assigned variant**, the responsible member should be ready to show and explain:
-
-1. **Vulnerable implementation:** Identify the exact source-code path containing the flaw.
-2. **Working exploit:** Demonstrate the controlled test against the group's own local application.
-3. **Root cause:** Explain why the vulnerable code accepts or executes the input.
-4. **Mitigation implemented:** Identify the code change that addresses the vulnerability.
-5. **Verification:** Repeat the same test against the mitigated route and show that it is blocked or handled safely.
-6. **Other mitigations (theory):** Explain the alternative mitigation techniques listed in the course assignment.
-
-### Suggested video structure
-
-Allow approximately 2–3 minutes per member:
-- Introduce the vulnerability and assigned variant.
-- Show the vulnerable code and local application.
-- Demonstrate the controlled exploit.
-- Explain the root cause.
-- Show the mitigation and repeat the test.
-- Briefly mention alternative mitigations.
-
-Each member should narrate their own segment so individual contributions are clear.
-
----
-
-## 9. Mitigation Alternatives to Study
-
-In addition to the mitigation implemented in each module, study the alternatives listed in the assignment:
-
-- **SQL Injection:** Parameterised queries, input validation with allow-lists, least-privilege database accounts, and safe error handling.
-- **OS Command Injection:** Avoid the shell, use parameterised execution with an argument vector, allow-list validation, and least privilege.
-- **XSS:** Context-aware output encoding, framework auto-escaping, HTML sanitisation, Content Security Policy (CSP), HttpOnly cookies, and safe DOM sinks.
-- **CSRF:** Synchronizer anti-CSRF tokens, SameSite cookies, re-authentication for sensitive actions, and avoiding state-changing GET requests.
-
----
-
-## 10. Submission Checklist
-
-- [ ] Confirm the five member names and roll numbers in the ownership declaration.
-- [ ] Ensure each member's assigned implementation is present in the repository.
-- [ ] Test every vulnerable route in the local lab.
-- [ ] Test the corresponding mitigation using the same demonstration input.
-- [ ] Capture screenshots of the vulnerable and mitigated results.
-- [ ] Record one group video with each member narrating their own 2–3 minute segment.
-- [ ] Include this README and the module-specific READMEs in the GitHub repository.
-- [ ] Upload the video to the group-specific Google Drive subfolder as instructed in Classroom.
-- [ ] Include the assignment PDF in that Drive subfolder.
-- [ ] Submit the GitHub repository link in the designated Google Sheet.
-
----
-
-## 11. Academic Integrity and Limitations
-
-This is a deliberately vulnerable educational lab. Its purpose is to demonstrate security weaknesses and compare them with defensive implementations. It is not intended for production use.
-
-The group must be able to explain its own code and demonstrate its own work during the individual viva. Do not claim that a mitigation is effective without testing it. Do not test shared classroom infrastructure, hosting providers, third-party websites, or systems outside the group's own application.
 
 **Project:** Web Server Security — Exploitation and Mitigation of Four Vulnerability Categories  
 **Course:** Cyber Security (IT-30001)  
