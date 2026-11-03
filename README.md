@@ -43,9 +43,13 @@ The uploaded project contains the following five variants. Fill in the member na
 ### Ownership declaration
 
 | Varshith | IIT2024151 | SQL Injection | Authentication bypass |
+
 | Thanishq | IIT2024197 | OS Command Injection | In-band |
+
 | Vikram | IIT2024116 | XSS | Reflected XSS |
+
 | Manoj Kumar|IIT2024148| CSRF | GET-based forged action |
+
 | Jaswanth | IIT2024189 | CSRF | POST-based forged action |
 
 The member listed for each variant should be the person who implemented it and can independently explain its vulnerable code, exploit, root cause, mitigation, and alternative mitigations during the viva.
