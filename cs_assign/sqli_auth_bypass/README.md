@@ -170,6 +170,6 @@ sqli_auth_bypass/
 
 ## Ownership
 
-| Member |Name |
-
-|IIT2024151 |Varshith |
+| Member Name | Roll Number | Category | Variant Implemented |
+|---|---|---|---|
+| Vikram | IIT2024116 | SQL Injection | Authentication Bypass (Variant 1) |
