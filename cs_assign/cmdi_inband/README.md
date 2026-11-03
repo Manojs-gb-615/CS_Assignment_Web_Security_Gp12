@@ -106,5 +106,5 @@ No shell command is executed.
 
 | Member Name | Roll Number | Category | Variant Implemented |
 |---|---|---|---|
-| ____________ | ____________ | OS Command Injection | In-band (output returned) |
+| Tanishq | IIT2024197 | OS Command Injection | In-band (output returned) |
 
