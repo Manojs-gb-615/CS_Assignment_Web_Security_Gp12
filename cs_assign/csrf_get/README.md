@@ -113,5 +113,5 @@ Third-party sites attempting to issue GET requests against `/delete-account-secu
 
 | Member Name | Roll Number | Category | Variant Implemented |
 |---|---|---|---|
-| ____________ | ____________ | Cross-Site Request Forgery (CSRF) | GET-based forged action |
+| _Manoj___________ | ___IIT2024148_________ | Cross-Site Request Forgery (CSRF) | GET-based forged action |
 
