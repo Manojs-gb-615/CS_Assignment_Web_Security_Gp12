@@ -29,10 +29,15 @@ The uploaded project contains the following five variants. Fill in the member na
 
 | Member | Vulnerability category | Variant | Folder | Port |
 
+
 | Member 1 | SQL Injection | Authentication bypass | `sqli_auth_bypass/` | 5001 |
+
 | Member 2 | OS Command Injection | In-band (command output returned) | `cmdi_inband/` | 5002 |
+
 | Member 3 | Cross-Site Scripting (XSS) | Reflected XSS | `xss_reflected/` | 5003 |
+
 | Member 4 | CSRF | GET-based forged action | `csrf_get/` | 5004 |
+
 | Member 5 | CSRF | POST-based forged action (auto-submitting form) | `csrf_post/` | 5005 |
 
 ### Ownership declaration
