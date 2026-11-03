@@ -121,5 +121,5 @@ The browser receives `&lt;script&gt;alert(&#x27;Reflected XSS&#x27;)&lt;/script&
 
 | Member Name | Roll Number | Category | Variant Implemented |
 |---|---|---|---|
-| ____________ | ____________ | Cross-Site Scripting (XSS) | Reflected XSS |
+| Vikram | IIT2024116 | Cross-Site Scripting (XSS) | Reflected XSS |
 
