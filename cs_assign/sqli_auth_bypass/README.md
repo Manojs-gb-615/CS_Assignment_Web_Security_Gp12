@@ -170,8 +170,6 @@ sqli_auth_bypass/
 
 ## Ownership
 
-| Member | Contribution |
-|---|---|
-| | |
-| | |
-| | |
+| Member |Name |
+
+|IIT2024151 |Varshith |
